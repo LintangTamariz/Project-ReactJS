@@ -1,12 +1,12 @@
 {
-    "routes": [
+    "rewrites": [
         {
           "src":"/" ,
-          "dest":"/"
+          "dest":"https://projectreactjs-nu.vercel.app/"
         },
         {
           "src": "/createproduct",
-          "dest": "/"
+          "dest": "https://projectreactjs-nu.vercel.app/createproduct"
         }
     ]
 }
