@@ -92,7 +92,8 @@ return (
           We are team of talented designers makin websites with...
         </p>
         <form className="text-black" onSubmit={handleSubmit}>
-          <List
+          <label>
+                      <List
             id="productName"
             label="Product Name"
             name="productName"
@@ -105,6 +106,8 @@ return (
           {errors.productName && touched.productName && (
             <div className="error text-red-500">{errors.productName}</div>
           )}
+
+          </label>
 
           <List
             id="category"
